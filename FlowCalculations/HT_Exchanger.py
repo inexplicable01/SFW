@@ -23,5 +23,6 @@ class HT_Exchanger(ModelObject):
         Cp1 = self.restrictor1.mdot*cpair
         Cp2 = self.restrictor2.mdot*cpair
         MCP_Capacity = Cp1 if Cp1<Cp2 else Cp2
-        U = 
+        U = 3433
+        return U
 
